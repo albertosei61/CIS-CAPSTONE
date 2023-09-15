@@ -1,0 +1,91 @@
+# Capstone Project Proposal
+
+## Project Title: WeatherMap - Integrating Google Maps and Weather API using Python and Flask
+
+### Team Members:
+Albert Osei
+Zachary Branton
+
+### Introduction:
+We propose to develop a web application called "WeatherMap" for our senior year capstone project. This project will involve the integration of Google Maps API and a Weather API to create a dynamic map that displays weather information for different locations.
+We plan to implement this project using Python with Flask as the web framework.
+
+### Project Description:
+
+
+#### Objective:
+The main objective of our project is to create an interactive map that allows users to visualize weather conditions in various locations.
+Users will be able to select different locations on the map, and the application will fetch real-time weather data for the selected locations using a Weather API and display it on the map as a ping.
+
+#### Features and Functionality:
+1. **Map Integration:** We will use the Google Maps API to embed an interactive map into our web application.
+Users will be able to zoom in/out and pan across the map to explore different regions.
+
+2. **Weather Information:** For any location clicked on the map, the application will use a Weather API to retrieve current weather data and ping the exact spot on the map with current weather information.
+This data may include temperature, humidity, wind speed, and weather conditions (e.g., sunny, rainy, cloudy). The information will be displayed as a ping on the map or with an additional weather template.
+
+3. **Location Markers:** Locations with weather data available will be marked with pins or markers on the map.
+Users can click on these markers to see the weather details for that specific location.
+
+4. **Search Functionality:** Users will have the option to search for specific locations by name or coordinates.
+The application will then center the map on the selected location and display its weather information.
+
+5. **Responsive Design:** The web application will have a responsive design to ensure usability on various devices, including desktops, tablets, and smartphones.
+User accessibilty will also be a functional aspect of our project.
+ 
+6. **User Authentication:** We will implement user authentication to allow registered users to save their favorite locations and customize their weather preferences.
+This feature will only be added if time is allowed.
+
+### Technologies and Tools:
+- Python: For backend development.
+- Flask: As the web framework to handle HTTP requests and responses.
+- Google Maps API: To integrate the map into our application.
+- Weather API: To fetch real-time weather data for different locations.
+- HTML, CSS, and JavaScript: For frontend development and user interactivity. #To be considered
+- Database (e.g., SQLite or PostgreSQL): To store user profiles and favorite locations. #To be considered
+- Version Control (e.g., Git): For collaborative development and code management.
+
+### Timeline:
+
+Week 1-2: Planning and Setup
+Define a clear and specific project scope.
+Select a Weather API with straightforward integration.
+Set up a basic Flask web application with Google Maps integration.
+Create a simple user interface for map display.
+
+Week 3-4: Backend Development
+Implement Flask routes for rendering the map.
+Integrate the Google Maps API to display an interactive map.
+Set up a minimal database (if necessary) for user authentication.
+
+Week 5-6: Weather Integration
+Connect to the Weather API and retrieve weather data for a single location.
+Display the weather information on the map for this location.
+Implement basic error handling for API requests.
+
+Week 7-8: Frontend Development
+Refine the user interface, focusing on essential features.
+Ensure the map is responsive and functional on different devices.
+Implement basic user authentication (if time allows).
+
+Week 9-10: Testing and Deployment
+Perform thorough testing of the application.
+Address critical bugs and issues.
+Deploy the application to a simple web server or a cloud platform (e.g., Heroku).
+
+Week 11-12: Documentation and Presentation
+Create concise user documentation.
+Prepare a presentation outlining the project's goals, features, and limitations.
+Practice the presentation for the capstone project.
+
+### Conclusion:
+The "WeatherMap" project will provide an engaging and informative experience for users, allowing them to explore weather conditions in different locations through an interactive map.
+This project will not only showcase our technical skills but also provide a practical and useful tool for individuals interested in real-time weather updates.
+
+We seek your approval and guidance for this capstone project. We are excited about the opportunity to work on this innovative and challenging project and look forward to your feedback and support throughout its development.
+
+Sincerely,
+
+Albert Osei
+
+Zachary Branton
