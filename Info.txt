@@ -1,0 +1,4 @@
+Sqlite3 commands 
+To start terminal -- sqlite3 weather_data.db
+To open database -- .open weather_data.db
+To query all the data -- SELECT * FROM weather_data;
