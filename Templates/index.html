@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Maps Form</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_rXA-UN9xj7OEYNr9FYTinj5TOgSlXnM"></script>
+    <style>
+        /* Sets the size of the map */
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Google Map</h1>
+    <div id="map" style="height: 400px; width: 100%;"></div>
+    <script>
+        // Initialize the map
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: 37.7749, lng: -122.4194 }, // Default center (San Francisco)
+                zoom: 5 // Default zoom level
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_rXA-UN9xj7OEYNr9FYTinj5TOgSlXnM&callback=initMap"></script>
+    <form action="/submit" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required><br>
+        <input type="submit" value="Submit">
+    </form>
+    <form action="/get_data" method="POST">
+        <label for="username">Id:</label>
+        <input type="text" id="id" name="id" required><br>
+        <input type="submit" value="Request">
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+1600 Amphitheatre Parkway, Mountain View, CA
+Eiffel Tower, Paris, France
+350 5th Ave, New York, NY
+Sydney Opera House, Sydney, Australia
+10 Downing Street, London, UK
+Statue of Liberty, New York, NY
+The White House, Washington, D.C.
+Colosseum, Rome, Italy
+Taj Mahal, Agra, India
+Great Wall of China, Beijing, China
